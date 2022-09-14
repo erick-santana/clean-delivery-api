@@ -1,4 +1,4 @@
-package com.delivery.api.domain.common
+package com.delivery.api.domain.models.common
 
 data class Period(
     val days: List<Day>

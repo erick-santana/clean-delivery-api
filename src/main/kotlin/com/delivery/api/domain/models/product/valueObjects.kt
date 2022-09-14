@@ -1,10 +1,9 @@
-package com.delivery.api.domain.product
+package com.delivery.api.domain.models.product
 
-import com.delivery.api.domain.common.Period
+import com.delivery.api.domain.models.common.Period
 import java.math.BigDecimal
 
 data class Product(
-    val id: String,
     val name: String,
     val photo: String,
     val price: BigDecimal,
